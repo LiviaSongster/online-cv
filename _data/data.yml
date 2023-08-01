@@ -4,58 +4,35 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    # about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Livia Songster
+    tagline: PhD Candidate
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+    email: liviasongster@gmail.com
+    timezone: America/Pacific Time Zone Timezone
+    linkedin: liviasongster
+    github: liviasongster
+    twitter: '@LiviaSongster'
 
     interests:
-      title: Interests
+      title: Research Interests
       info:
-        - item: Climbing
+        - item: Evolutionary cell biology
           link:
 
-        - item: Snowboarding
+        - item: Phylogenetics
           link:
 
-        - item: Cooking
+        - item: Microbiology
           link:
 
 career-profile:
-    title: Career Profile
+    title: Previous Research
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -66,9 +43,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Quantitative Biology
+        university: University of California, San Diego
+        time: 2019 - 2024 (anticipated)
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,9 +54,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Biochemistry
+        university: University of Minnesota, Twin Cities
+        time: 2014 - 2018
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -89,11 +66,11 @@ education:
             - Bullet point
             - Bullet point
 experiences:
-    title: Experiences
+    title: Research Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: PhD Candidate
+        time: 2019 - Present
+        advisor: Advisor: Samara Reck-Peterson
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -106,9 +83,9 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Lab Technician
+        time: 2018 - 2019
+        advisor: Advisor: Margaret A. Titus
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -117,9 +94,20 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Undergraduate Researcher
+        time: 2017 - 2018
+        advisor: Advisor: Margaret A. Titus
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
+    - role: Undergraduate Researcher
+        time: 2015 - 2017
+        advisor: Advisor: David D. Thomas
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -129,8 +117,36 @@ experiences:
             - Bullet point
             - Bullet point
 
+projects:
+    title: Teaching Experience
+    info:
+      - role: Instructional assistant
+        time: 2019 - Present
+        advisor: Advisor: Samara Reck-Peterson
+        details: |
+              - class
+              - topics
+      - role: Instructional assistant
+        time: 2019 - Present
+        advisor: Advisor: Samara Reck-Peterson
+        details: |
+              - class
+              - topics
+      - role: Instructional assistant
+        time: 2019 - Present
+        advisor: Advisor: Samara Reck-Peterson
+        details: |
+              - class
+              - topics
+      - role: Instructional assistant
+        time: 2019 - Present
+        advisor: Advisor: Samara Reck-Peterson
+        details: |
+              - class
+              - topics
+
 certifications:
-      title: Certifications
+      title: Honors & Awards
       list:
         - name: CV Builder
           start: 2020
@@ -140,65 +156,10 @@ certifications:
           credentialurl: www.google.com
           credentialname: Google
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-        
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+            Details about cert.
 
 oss:
-    title: OSS Contributions
+    title: Presentations
     intro: >
       You can list your open source software contributions in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -242,23 +203,24 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: ImageJ
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: R
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Python
+        level: 70%
 
-      - name: HTML5 & CSS
+      - name: Adobe Illustrator
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Graphpad Prism
+        level: 100%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Microsoft Office
+        level: 100%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
