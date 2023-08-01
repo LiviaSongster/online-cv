@@ -70,7 +70,7 @@ experiences:
     info:
       - role: PhD Candidate
         time: 2019 - Present
-        advisor: Advisor: Samara Reck-Peterson
+        company: Advisor: Samara Reck-Peterson
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -85,7 +85,7 @@ experiences:
             - Bullet point
       - role: Lab Technician
         time: 2018 - 2019
-        advisor: Advisor: Margaret A. Titus
+        company: Advisor: Margaret A. Titus
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -96,7 +96,7 @@ experiences:
             - Bullet point
       - role: Undergraduate Researcher
         time: 2017 - 2018
-        advisor: Advisor: Margaret A. Titus
+        company: Advisor: Margaret A. Titus
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -107,7 +107,7 @@ experiences:
             - Bullet point
     - role: Undergraduate Researcher
         time: 2015 - 2017
-        advisor: Advisor: David D. Thomas
+        company: Advisor: David D. Thomas
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
